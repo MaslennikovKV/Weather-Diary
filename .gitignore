@@ -1,17 +1,11 @@
-## .gitignore
-Байт-код и кэш Python
-pycache/
+# Игнорировать временные файлы Python
+__pycache__/
 *.py[cod]
 *$py.class
 
-Виртуальные окружения
-venv/
-env/
-.venv/
-
-Редакторы
+# Игнорировать файлы IDE
 .vscode/
 .idea/
 
-Данные погоды
-weather_data.json
+# Json-файл с данными (опционально, если не хотите хранить чужие записи)
+# weather_data.json
