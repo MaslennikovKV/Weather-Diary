@@ -1,34 +1,17 @@
-# Python
-__pycache__/
+## .gitignore
+Байт-код и кэш Python
+pycache/
 *.py[cod]
 *$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-*.egg-info/
-dist/
-build/
 
-# IDE
+Виртуальные окружения
+venv/
+env/
+.venv/
+
+Редакторы
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Project specific
+Данные погоды
 weather_data.json
-*.json
-!sample_weather_data.json
-
-# Logs
-*.log
